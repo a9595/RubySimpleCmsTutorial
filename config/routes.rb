@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   get 'products/all'
   get 'products/snacks'
 
-  root 'demo#index'
+  root 'demo#hello'
 
   get 'demo/index'
   get 'demo/hello'
